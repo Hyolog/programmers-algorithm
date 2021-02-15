@@ -7,6 +7,7 @@
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
 * [프린터](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/프린터.cs)
 * [스킬트리](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/스킬트리.cs)
+* [다음큰숫자](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/다음큰숫자.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
