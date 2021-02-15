@@ -1,4 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//https://programmers.co.kr/learn/courses/30/lessons/12922
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
 
 namespace ProgrammersAlgorithmTest
