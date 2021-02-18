@@ -13,6 +13,7 @@
 * [삼각달팽이](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/삼각달팽이.cs)
 * [점프와순간이동](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/점프와순간이동.cs)
 * [피보나치수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/피보나치수.cs)
+* [조이스틱](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/조이스틱.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
