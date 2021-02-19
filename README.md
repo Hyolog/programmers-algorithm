@@ -3,6 +3,7 @@
 * [체육복](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/체육복.cs)
 * [수박수박수박수박수박수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/수박수박수박수박수박수.cs)
 * [시저암호](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/시저암호.cs)
+* [제일작은수제거하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/제일작은수제거하기.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
