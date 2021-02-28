@@ -5,6 +5,7 @@
 * [시저암호](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/시저암호.cs)
 * [제일작은수제거하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/제일작은수제거하기.cs)
 * [이상한문자만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/이상한문자만들기.cs)
+* [짝수와홀수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/짝수와홀수.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
