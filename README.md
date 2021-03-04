@@ -7,6 +7,7 @@
 * [이상한문자만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/이상한문자만들기.cs)
 * [짝수와홀수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/짝수와홀수.cs)
 * [콜라츠추측](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/콜라츠추측.cs)
+* [서울에서김서방찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/서울에서김서방찾기.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
