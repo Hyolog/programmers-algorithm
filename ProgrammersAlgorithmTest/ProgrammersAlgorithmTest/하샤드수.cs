@@ -1,4 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//https://programmers.co.kr/learn/courses/30/lessons/12947
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ProgrammersAlgorithmTest
 {
@@ -13,8 +15,14 @@ namespace ProgrammersAlgorithmTest
 
         public bool solution(int x)
         {
-            bool answer = true;
-            return answer;
+            var sum = 0;
+
+            foreach (var item in x.ToString())
+            {
+                sum += int.Parse(item.ToString());
+            }
+
+            return x % sum == 0 ? true : false;
         }
     }
 }
