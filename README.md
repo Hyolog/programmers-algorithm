@@ -9,6 +9,7 @@
 * [콜라츠추측](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/콜라츠추측.cs)
 * [서울에서김서방찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/서울에서김서방찾기.cs)
 * [자연수뒤집어배열로만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/자연수뒤집어배열로만들기.cs)
+* [삼진법뒤집기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/삼진법뒤집기.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
