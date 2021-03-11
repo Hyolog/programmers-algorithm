@@ -27,6 +27,7 @@
 * [JadenCase문자열만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/JadenCase문자열만들기.cs)
 * [행렬의곱셈](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/행렬의곱셈.cs)
 * [예상대진표](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/예상대진표.cs)
+* [이진변환반복하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/이진변환반복하기.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
