@@ -2,6 +2,7 @@
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref=""/>
     [TestClass]
     public class DefaultTemplate
     {
