@@ -1,11 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace ProgrammersAlgorithmTest
 {
-    /// <see cref=""/>
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42840"/>
     [TestClass]
     public class 모의고사
     {
