@@ -14,6 +14,7 @@
 * [문자열을정수로바꾸기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/문자열을정수로바꾸기.cs)
 * [나누어떨어지는숫자배열](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/나누어떨어지는숫자배열.cs)
 * [모의고사](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/모의고사.cs)
+* [평균구하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/평균구하기.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
