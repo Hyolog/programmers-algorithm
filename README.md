@@ -37,6 +37,7 @@
 * [쿼드압축후개수세기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/쿼드압축후개수세기.cs)
 * [올바른괄호](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/올바른괄호.cs)
 * [위장](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/위장.cs)
+* [HIndex](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/HIndex.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
