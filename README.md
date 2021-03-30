@@ -16,6 +16,7 @@
 * [모의고사](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/모의고사.cs)
 * [평균구하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/평균구하기.cs)
 * [문자열내림차순으로배치하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/문자열내림차순으로배치하기.cs)
+* [예산](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/예산.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
