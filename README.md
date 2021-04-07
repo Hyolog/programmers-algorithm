@@ -19,6 +19,7 @@
 * [예산](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/예산.cs)
 * [두정수사이의합](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/두정수사이의합.cs)
 * [문자열내마음대로정렬하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/문자열내마음대로정렬하기.cs)
+* [약수의합](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/약수의합.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
