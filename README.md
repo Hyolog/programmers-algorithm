@@ -23,6 +23,7 @@
 * [행렬의덧셈](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/행렬의덧셈.cs)
 * [핸드폰번호가리기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/핸드폰번호가리기.cs)
 * [x만큼간격이있는n개의숫자](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/x만큼간격이있는n개의숫자.cs)
+* [정수제곱근판별](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/정수제곱근판별.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
