@@ -51,6 +51,7 @@
 * [HIndex](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/HIndex.cs)
 * [방문길이](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/방문길이.cs)
 * [최솟값만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/최솟값만들기.cs)
+* [N개의최소공배수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/N개의최소공배수.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
