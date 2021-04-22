@@ -64,6 +64,7 @@
 * [풍선터트리기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/풍선터트리기.cs)
 * [가장긴팰린드롬](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/가장긴팰린드롬.cs)
 * [야근지수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/야근지수.cs)
+* [숫자게임](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/숫자게임.cs)
 
 ## LV4
 * [쿠키구입](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/쿠키구입.cs)
