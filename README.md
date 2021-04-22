@@ -54,6 +54,7 @@
 * [최솟값만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/최솟값만들기.cs)
 * [N개의최소공배수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/N개의최소공배수.cs)
 * [가장큰수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/가장큰수.cs)
+* [괄호회전하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/괄호회전하기.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
