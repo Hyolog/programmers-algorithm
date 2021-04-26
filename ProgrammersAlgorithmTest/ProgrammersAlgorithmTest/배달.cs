@@ -20,12 +20,11 @@ namespace ProgrammersAlgorithmTest
 
         public int solution(int N, int[,] road, int K)
         {
-            // <방문마을, 최단거리>
             var visitedVillages = new Dictionary<int, int>();
 
             dfs(road, 1, visitedVillages, K);
 
-            return visitedVillages.Where(d => !d.Value.Equals(int.MaxValue)).Count();
+            return visitedVillages.Count();
         }
 
         private void dfs(int[,] road, int village, Dictionary<int, int> visitedVillage, int capa)
