@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
 namespace ProgrammersAlgorithmTest
 {
@@ -6,12 +7,6 @@ namespace ProgrammersAlgorithmTest
     [TestClass]
     public class 직사각형별찍기
     {
-        [TestMethod]
-        public void Test()
-        {
-
-        }
-
         public static void Main()
         {
             String[] s;
@@ -19,10 +14,18 @@ namespace ProgrammersAlgorithmTest
             Console.Clear();
             s = Console.ReadLine().Split(' ');
 
-            int a = Int32.Parse(s[0]);
-            int b = Int32.Parse(s[1]);
+            int width = Int32.Parse(s[0]);
+            int height = Int32.Parse(s[1]);
 
-            Console.WriteLine("{0}", a + b);
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
         }
     }
 }
