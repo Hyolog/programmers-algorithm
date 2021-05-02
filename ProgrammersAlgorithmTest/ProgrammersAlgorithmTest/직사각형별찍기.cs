@@ -7,7 +7,7 @@ namespace ProgrammersAlgorithmTest
     [TestClass]
     public class 직사각형별찍기
     {
-        public static void Main()
+        public static void MainTemp()
         {
             String[] s;
 
