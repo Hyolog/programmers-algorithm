@@ -15,11 +15,7 @@ namespace ProgrammersAlgorithmTest
 
         public long solution(long n)
         {
-            var a = n.ToString().OrderBy(d => d);
-            var b = a.ToString();
-            var c = long.Parse(b);
-
-            return long.Parse(n.ToString().OrderBy(d => d).ToString());
+            return long.Parse(new string(n.ToString().OrderByDescending(d => d).ToArray()));
         }
     }
 }
