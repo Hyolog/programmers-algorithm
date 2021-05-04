@@ -63,6 +63,7 @@
 * [배달](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/배달.cs)
 * [다리를지나는트럭](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/다리를지나는트럭.cs)
 * [소수찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/소수찾기.cs)
+* [행렬테두리회전하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/행렬테두리회전하기.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
