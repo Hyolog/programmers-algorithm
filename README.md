@@ -76,6 +76,7 @@
 * [야근지수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/야근지수.cs)
 * [숫자게임](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/숫자게임.cs)
 * [하노이의탑](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/하노이의탑.cs)
+* [여행경로](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/여행경로.cs)
 
 ## LV4
 * [쿠키구입](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/쿠키구입.cs)
