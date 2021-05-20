@@ -52,5 +52,18 @@ namespace ProgrammersAlgorithmTest
 
             return number + (long)Math.Pow(2, length - 1);
         }
+
+        // 나중에 참고해볼 다른사람 풀이
+        public long[] solution2(long[] numbers)
+        {
+            long[] answer = new long[numbers.Length];
+            
+            for (int i = 0; i < answer.Length; i++)
+            {
+                answer[i] = ((numbers[i] ^ (numbers[i] + 1)) >> 2) + numbers[i] + 1;
+            
+            }
+            return answer;
+        }
     }
 }
