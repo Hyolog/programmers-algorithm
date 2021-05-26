@@ -67,6 +67,7 @@
 * [소수찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/소수찾기.cs)
 * [행렬테두리회전하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/행렬테두리회전하기.cs)
 * [두개이하로다른비트](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/두개이하로다른비트.cs)
+* [타겟넘버](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/타겟넘버.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
