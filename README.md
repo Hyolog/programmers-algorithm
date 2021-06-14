@@ -34,6 +34,7 @@
 * [문자열다루기기본](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/문자열다루기기본.cs)
 * [약수의개수와덧셈](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/약수의개수와덧셈.cs)
 * [소수찾기2](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/소수찾기2.cs)
+* [소수만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/소수만들기.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
