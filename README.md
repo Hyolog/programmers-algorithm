@@ -85,6 +85,7 @@
 * [여행경로](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/여행경로.cs)
 * [단어변환](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/단어변환.cs)
 * [섬연결하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/섬연결하기.cs)
+* [모두0으로만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/모두0으로만들기.cs)
 
 ## LV4
 * [쿠키구입](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/쿠키구입.cs)
