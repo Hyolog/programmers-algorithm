@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0ae930ff-8cff-45fc-afac-2085afd32fd1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ProgrammersAlgorithmTestPy.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -12,7 +13,7 @@
     <Name>ProgrammersAlgorithmTestPy</Name>
     <RootNamespace>ProgrammersAlgorithmTestPy</RootNamespace>
     <TestFramework>unittest</TestFramework>
-    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestPattern>*.py</UnitTestPattern>
     <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -24,10 +25,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ProgrammersAlgorithmTestPy.py" />
-    <Compile Include="test_1.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="나라의숫자124.py" />
+    <Compile Include="포켓몬.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
