@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersAlgorithmTest", "ProgrammersAlgorithmTest\ProgrammersAlgorithmTest.csproj", "{8AC4AF14-3654-43E9-BDA9-BA7FC9E2E391}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammersAlgorithmTest", "ProgrammersAlgorithmTest\ProgrammersAlgorithmTest.csproj", "{8AC4AF14-3654-43E9-BDA9-BA7FC9E2E391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0B221C5-0E13-41AE-9446-90151AB58DBD}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
