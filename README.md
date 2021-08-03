@@ -36,6 +36,7 @@
 * [소수찾기2](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/소수찾기2.cs)
 * [소수만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/소수만들기.cs)
 * [숫자문자열과영단어](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/숫자문자열과영단어.cs)
+* [부족한금액계산하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/부족한금액계산하기.cs)
 * [포켓몬](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/포켓몬.py)
 
 ## LV2
