@@ -1,10 +1,10 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/12911
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12911"/>
+    // TODO : 타임아웃 부분 다시 풀어보기
     [TestClass]
     public class 다음큰숫자
     {

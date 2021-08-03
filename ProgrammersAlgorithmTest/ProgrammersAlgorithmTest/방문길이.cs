@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/49994"/>
-    /// 좌표 + 구현문제에 어려움을 느끼는듯
+    /// TODO : 좌표 + 구현문제에 어려움을 느끼는듯
     [TestClass]
     public class 방문길이
     {

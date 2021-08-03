@@ -1,10 +1,9 @@
-﻿// https://programmers.co.kr/learn/courses/30/lessons/42860
-// 문제 논란이 좀 있어보임
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42860"/>
     [TestClass]
     public class 조이스틱
     {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42839"/>
-    /// dfs 공부 좀 더해야할듯
+    /// TODO : dfs 공부 좀 더해야할듯
     [TestClass]
     public class 소수찾기
     {

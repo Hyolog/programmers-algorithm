@@ -1,10 +1,9 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/12981
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12981"/>
     [TestClass]
     public class 영어끝말잇기
     {

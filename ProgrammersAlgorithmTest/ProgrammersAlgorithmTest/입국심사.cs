@@ -1,10 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Linq;
 
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/43238"/>
-    /// 다시 풀어보기
+    /// TODO : 다시 풀어보기
     [TestClass]
     public class 입국심사
     {

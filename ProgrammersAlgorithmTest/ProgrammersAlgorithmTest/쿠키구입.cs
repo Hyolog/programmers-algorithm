@@ -1,10 +1,9 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/49995
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/49995"/>
     [TestClass]
     public class 쿠키구입
     {

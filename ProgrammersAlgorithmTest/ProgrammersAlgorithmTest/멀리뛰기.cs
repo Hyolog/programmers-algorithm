@@ -1,10 +1,9 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/12914
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12914"/>
     [TestClass]
     public class 멀리뛰기
     {

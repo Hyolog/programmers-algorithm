@@ -1,11 +1,10 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/68936
-//Lv2 문제 맞음? 체감 3정도
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/68936"/>
+    /// TODO : Lv2 문제 맞음? 체감 3정도
     [TestClass]
     public class 쿼드압축후개수세기
     {

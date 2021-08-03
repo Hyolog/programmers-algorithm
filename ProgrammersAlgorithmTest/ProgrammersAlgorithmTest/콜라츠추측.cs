@@ -1,10 +1,9 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/12943
-//오버플로우(overflow)를 고려하게한 인상적인 문제
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12943"/>
+    /// TODO : 다시 풀어보기
     [TestClass]
     public class 콜라츠추측
     {

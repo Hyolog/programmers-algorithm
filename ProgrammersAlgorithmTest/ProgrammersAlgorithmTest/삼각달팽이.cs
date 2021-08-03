@@ -1,10 +1,9 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/68645
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/68645"/>
     [TestClass]
     public class 삼각달팽이
     {

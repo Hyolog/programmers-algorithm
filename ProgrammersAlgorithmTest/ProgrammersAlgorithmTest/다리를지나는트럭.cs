@@ -4,7 +4,6 @@ using System.Collections.Generic;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42583"/>
-    /// 구현 문제
     [TestClass]
     public class 다리를지나는트럭
     {

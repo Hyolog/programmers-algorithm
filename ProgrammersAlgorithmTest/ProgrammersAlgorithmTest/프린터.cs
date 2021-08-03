@@ -1,12 +1,11 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/42587
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42587"/>
     [TestClass]
     public class 프린터
     {

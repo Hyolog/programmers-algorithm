@@ -1,11 +1,10 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/12951
-//쉬워보이지만 신경쓸것이 은근히 많은 문제
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12951"/>
+    // TODO : 쉬워보이지만 신경쓸것이 은근히 많은 문제.
     [TestClass]
     public class JadenCase문자열만들기
     {

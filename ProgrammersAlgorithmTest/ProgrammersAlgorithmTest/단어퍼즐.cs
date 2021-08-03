@@ -3,7 +3,7 @@
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12983?language=csharp"/>
-    /// 다시 풀어보기
+    /// TODO : 다시 풀어보기
     [TestClass]
     public class 단어퍼즐
     {

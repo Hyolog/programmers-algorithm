@@ -4,7 +4,7 @@ using System.Linq;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12915"/>
-    /// 뭔데 은근 복잡하네
+    /// TODO : 은근 복잡하네
     [TestClass]
     public class 문자열내마음대로정렬하기
     {

@@ -6,6 +6,7 @@ using System.Linq;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/49190"/>
+    /// TODO
     /// 기본 idea를 잘 생각했고 케어하지 못하는 부분에 대한 처리를 잘 추가했음
     /// Point, Line class Equals(), GetHashCode()를 재정의해서 Dictionary 키로 사용했음
     /// 이동을 int[] dX, int[] dY로 표현하고 vertex, edge를 HashSet을 사용해 다시한번 풀어보자

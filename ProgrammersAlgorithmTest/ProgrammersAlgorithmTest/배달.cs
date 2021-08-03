@@ -5,8 +5,7 @@ using System.Linq;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12978"/>
-    /// LV2 맞나? 어려운데
-    /// DFS
+    /// TODO : LV2 맞나? 어려운데, DFS
     [TestClass]
     public class 배달
     {

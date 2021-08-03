@@ -6,7 +6,7 @@ using System.Linq;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/76503"/>
-    /// 13,14,18 시간초과
+    /// TODO : 13,14,18 시간초과
     [TestClass]
     public class 모두0으로만들기
     {

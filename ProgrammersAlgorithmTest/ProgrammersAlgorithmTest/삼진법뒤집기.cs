@@ -1,11 +1,10 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/68935
-//Lv1 치고 어렵다.
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/68935"/>
+    /// TODO : Lv1 치고 어렵다.
     [TestClass]
     public class 삼진법뒤집기
     {

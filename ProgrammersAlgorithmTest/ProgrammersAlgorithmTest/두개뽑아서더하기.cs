@@ -1,11 +1,10 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/68644
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/68644"/>
     [TestClass]
     public class 두개뽑아서더하기
     {

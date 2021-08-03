@@ -1,9 +1,8 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/12985
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12985"/>
     [TestClass]
     public class 예상대진표
     {

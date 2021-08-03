@@ -3,7 +3,7 @@
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/12904"/>
-    /// 신경쓸 엣지포인트가 제법 있었다.
+    /// TODO : 신경쓸 엣지포인트가 제법 있었다.
     [TestClass]
     public class 가장긴팰린드롬
     {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42861"/>
-    /// 카루스칼 알고리즘
+    /// TODO : 카루스칼 알고리즘
     [TestClass]
     public class 섬연결하기
     {

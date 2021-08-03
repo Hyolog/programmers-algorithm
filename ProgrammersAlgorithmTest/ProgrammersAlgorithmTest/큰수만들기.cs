@@ -1,11 +1,10 @@
-﻿//https://programmers.co.kr/learn/courses/30/lessons/42883
-//일부 테케 시간초과. 생각보다 어려웠음
-
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Text;
 
 namespace ProgrammersAlgorithmTest
 {
+    /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42883"/>
+    /// TODO : 일부 테케 시간초과. 생각보다 어려웠음
     [TestClass]
     public class 큰수만들기
     {

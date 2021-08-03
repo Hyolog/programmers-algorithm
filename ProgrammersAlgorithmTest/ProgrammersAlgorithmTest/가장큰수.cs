@@ -4,7 +4,7 @@ using System;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/42746"/>
-    /// 참고한 풀이. 다시한번 보면 좋을듯
+    /// TODO : 참고한 풀이. 다시한번 보면 좋을듯
     [TestClass]
     public class 가장큰수
     {
