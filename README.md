@@ -38,6 +38,7 @@
 * [숫자문자열과영단어](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/숫자문자열과영단어.cs)
 * [부족한금액계산하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/부족한금액계산하기.cs)
 * [포켓몬](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/포켓몬.py)
+* [같은숫자는싫어](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/같은숫자는싫어.py)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
