@@ -1,10 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using System.Collections;
 
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/1844"/>
-    /// TODO : BFS
+    /// DONE : BFS
     [TestClass]
     public class 게임맵최단거리
     {
@@ -24,85 +25,124 @@ namespace ProgrammersAlgorithmTest
             Assert.AreEqual(solution(new int[,] { { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 } }), 10);
         }
 
+        // 문제 정의상 아래로 내려가는 것이 y+
+        public int solution(int[,] maps)
+        {
+            var mapXLength = maps.GetLength(1);
+            var mapYLength = maps.GetLength(0);
+
+            // 테두리를 고려한 맵 (0이 벽이므로 기본적으로 모두 벽 상태)
+            var mapWithBorder = new int[mapYLength + 2, mapXLength + 2];
+
+            // 벽이 없는 자리 세팅
+            for (int x = 0; x < mapXLength; x++)
+            {
+                for (int y = 0; y < mapYLength; y++)
+                {
+                    mapWithBorder[y + 1, x + 1] = maps[y, x];
+                }
+            }
+
+            var startPoint = new Point(1, 1, 1);
+            var goalPoint = new Point(mapXLength, mapYLength);
+            var steps = new Queue();
+            var minStep = -1;
+            
+            steps.Enqueue(startPoint);
+            
+            while (steps.Count != 0)
+            {
+                var currentPoint = steps.Dequeue() as Point;
+
+                if (currentPoint.Equals(goalPoint))
+                    minStep = currentPoint.Step;
+
+                // 갈수있는 길이면 steps에 넣고 방문표시
+                var upPoint = currentPoint.MoveUp();
+                
+                if (mapWithBorder[upPoint.Y, upPoint.X] == 1)
+                {
+                    steps.Enqueue(upPoint);
+                    mapWithBorder[upPoint.Y, upPoint.X] = 0;
+                }
+
+                var downPoint = currentPoint.MoveDown();
+
+                if (mapWithBorder[downPoint.Y, downPoint.X] == 1)
+                {
+                    steps.Enqueue(downPoint);
+                    mapWithBorder[downPoint.Y, downPoint.X] = 0;
+                }
+
+                var leftPoint = currentPoint.MoveLeft();
+
+                if (mapWithBorder[leftPoint.Y, leftPoint.X] == 1)
+                {
+                    steps.Enqueue(leftPoint);
+                    mapWithBorder[leftPoint.Y, leftPoint.X] = 0;
+                }
+
+                var rightPoint = currentPoint.MoveRight();
+
+                if (mapWithBorder[rightPoint.Y, rightPoint.X] == 1)
+                {
+                    steps.Enqueue(rightPoint);
+                    mapWithBorder[rightPoint.Y, rightPoint.X] = 0;
+                }
+            }
+
+            return minStep;
+        }
+
         public class Point
         {
-            public int X { get; set; }
-            public int Y { get; set; }
-            public int Step { get; set; }
-
-            public Point(int x, int y, int step)
+            public Point(int x, int y, int step = -1)
             {
                 X = x;
                 Y = y;
                 Step = step;
             }
-        }
 
-        /// <param name="maps">n x m(1 <= n, m <= 100)</param>
-        public int solution(int[,] maps)
-        {
-            // 벽(0)으로 둘러쌓인 테두리가 있는 맵 생성
-            var width = maps.GetLength(1) + 2;
-            var height = maps.GetLength(0) + 2;
+            public int X { get; set; }
+            public int Y { get; set; }
+            public int Step { get; set; }
 
-            var map = new int[height, width];
-
-            // 길 표시
-            for (int y = 0; y < maps.GetLength(0); y++)
+            public Point MoveUp()
             {
-                for (int x = 0; x < maps.GetLength(1); x++)
-                {
-                    if (maps[y, x] == 1)
-                    {
-                        map[y + 1, x + 1] = 1;
-                    }
-                }
+                return new Point(X, Y - 1, Step + 1);
             }
 
-            // 목표 지점 설정
-            var goalX = maps.GetLength(1);
-            var goalY = maps.GetLength(0);
-
-            map[1, 1] = 0;
-            var minStep = int.MaxValue;
-
-            var steps = new Queue();
-            var startPoint = new Point(1, 1, 1);
-            steps.Enqueue(startPoint);
-
-            while (steps.Count != 0)
+            public Point MoveDown()
             {
-                var point = steps.Dequeue() as Point;
-
-                if (point.X.Equals(goalX) && point.Y.Equals(goalY))
-                    minStep = point.Step;
-
-                if (map[point.Y, point.X + 1] == 1)
-                {
-                    steps.Enqueue(new Point(point.X + 1, point.Y, point.Step + 1));
-                    map[point.Y, point.X + 1] = 0;
-                }
-                if (map[point.Y + 1, point.X] == 1)
-                {
-                    steps.Enqueue(new Point(point.X, point.Y + 1, point.Step + 1));
-                    map[point.Y + 1, point.X] = 0;
-                }
-                if (map[point.Y, point.X - 1] == 1)
-                {
-                    steps.Enqueue(new Point(point.X - 1, point.Y, point.Step + 1));
-                    map[point.Y, point.X - 1] = 0;
-                }
-                if (map[point.Y - 1, point.X] == 1)
-                {
-                    steps.Enqueue(new Point(point.X, point.Y - 1, point.Step + 1));
-                    map[point.Y - 1, point.X] = 0;
-                }
+                return new Point(X, Y + 1, Step + 1);
             }
 
-            if (minStep.Equals(int.MaxValue))
-                return -1;
-            else
-                return minStep;
+            public Point MoveLeft()
+            {
+                return new Point(X + 1, Y, Step + 1);
+            }
+
+            public Point MoveRight()
+            {
+                return new Point(X - 1, Y, Step + 1);
+            }
+
+            public override bool Equals(object obj)
+            {
+                if (obj is Point)
+                {
+                    var point = obj as Point;
+
+                    return point.X.Equals(X) && point.Y.Equals(Y);
+                }
+
+                return false;
+            }
+
+            public override int GetHashCode()
+            {
+                return HashCode.Combine(X, Y);
+            }
         }
     }
 }
