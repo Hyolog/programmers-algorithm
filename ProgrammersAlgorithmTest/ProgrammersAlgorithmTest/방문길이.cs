@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace ProgrammersAlgorithmTest
 {
     /// <see cref="https://programmers.co.kr/learn/courses/30/lessons/49994"/>
-    /// TODO : 좌표 + 구현문제에 어려움을 느끼는듯
+    /// DONE : 좌표 + 구현문제에 어려움을 느끼는듯
     [TestClass]
     public class 방문길이
     {
@@ -17,8 +17,12 @@ namespace ProgrammersAlgorithmTest
 
         public class Point
         {
-            public int X;
-            public int Y;
+            public int X { get; set; }
+            public int Y { get; set; }
+            public bool UpSideLine { get; set; }
+            public bool DownSideLine { get; set; }
+            public bool LeftSideLine { get; set; }
+            public bool RightSideLine { get; set; }
 
             public Point(int x, int y)
             {
@@ -26,79 +30,106 @@ namespace ProgrammersAlgorithmTest
                 Y = y;
             }
 
-            public Point Copy()
+            public override bool Equals(object obj)
             {
-                return new Point(X, Y);
+                if (obj is Point)
+                {
+                    var point = obj as Point;
+
+                    return point.X.Equals(X) && point.Y.Equals(Y);
+                }
+
+                return false;
             }
 
-            public static bool operator ==(Point p1, Point p2)
+            public override int GetHashCode()
             {
-                return p1.X == p2.X && p1.Y == p2.Y ? true : false;
+                return System.HashCode.Combine(X, Y);
             }
 
-            public static bool operator !=(Point p1, Point p2)
+            public bool IsValid()
             {
-                return p1.X == p2.X && p1.Y == p2.Y ? false : true;
+                return X >= -5 && X <= 5 && Y >= -5 && Y <= 5;
             }
         }
 
-        public class Line
+        public Point MakeNextPoint(Point currentPoint, char direction)
         {
-            public Point Start { get; set; }
-            public Point End { get; set; }
+            switch (direction)
+            {
+                case 'U': return new Point(currentPoint.X, currentPoint.Y + 1);
+                case 'D': return new Point(currentPoint.X, currentPoint.Y - 1);
+                case 'L': return new Point(currentPoint.X - 1, currentPoint.Y);
+                case 'R': return new Point(currentPoint.X + 1, currentPoint.Y);
+                default: throw new System.Exception("Invalid Direction.");
+            }
         }
 
         public int solution(string dirs)
         {
-            var visitedLines = new List<Line>();
+            // key Point -> 한 점에 연결할 수 있는 선은 최대 4개
+            var distinctStepCount = 0;
+            var visitedPoints = new HashSet<Point>();
             var currentPoint = new Point(0, 0);
+            visitedPoints.Add(currentPoint);
 
-            foreach (var dir in dirs)
+            foreach (var direction in dirs)
             {
-                var nextPoint = Move(currentPoint, dir);
+                var nextPoint = MakeNextPoint(currentPoint, direction);
 
-                if (currentPoint == nextPoint)
+                if (!nextPoint.IsValid())
                     continue;
 
-                bool isFirstVisit = true;
+                // 방문 기록 있으면 업데이트
+                if (visitedPoints.Contains(nextPoint))
+                    visitedPoints.TryGetValue(nextPoint, out nextPoint);
 
-                foreach (var visitedLine in visitedLines)
+                switch (direction)
                 {
-                    if (visitedLine.Start == nextPoint && visitedLine.End == currentPoint)
-                    {
-                        isFirstVisit = false;
-                        break;
-                    }
-                    else if (visitedLine.Start == currentPoint && visitedLine.End == nextPoint)
-                    {
-                        isFirstVisit = false;
-                        break;
-                    }
+                    case 'U':
+                        {
+                            if (!currentPoint.UpSideLine)
+                            {
+                                currentPoint.UpSideLine = true;
+                                nextPoint.DownSideLine = true;
+                                distinctStepCount++;
+                            }
+                        } break;
+                    case 'D':
+                        {
+                            if (!currentPoint.DownSideLine)
+                            {
+                                currentPoint.DownSideLine = true;
+                                nextPoint.UpSideLine = true;
+                                distinctStepCount++;
+                            }
+                        } break;
+                    case 'L':
+                        {
+                            if (!currentPoint.LeftSideLine)
+                            {
+                                currentPoint.LeftSideLine = true;
+                                nextPoint.RightSideLine = true;
+                                distinctStepCount++;
+                            }
+                        } break;
+                    case 'R':
+                        {
+                            if (!currentPoint.RightSideLine)
+                            {
+                                currentPoint.RightSideLine = true;
+                                nextPoint.LeftSideLine = true;
+                                distinctStepCount++;
+                            }
+                        } break;
+                    default: break;
                 }
 
-                if (isFirstVisit)
-                    visitedLines.Add(new Line() { Start = currentPoint.Copy(), End = nextPoint });
-
                 currentPoint = nextPoint;
+                visitedPoints.Add(currentPoint);
             }
 
-            return visitedLines.Count;
-        }
-
-        public Point Move(Point point, char dir)
-        {
-            var newPoint = new Point(point.X, point.Y);
-
-            switch (dir)
-            {
-                case 'U': if (newPoint.Y < 5) { newPoint.Y++; } break;
-                case 'D': if (newPoint.Y > -5) { newPoint.Y--; } break;
-                case 'L': if (newPoint.X > -5) { newPoint.X--; } break;
-                case 'R': if (newPoint.X < 5) { newPoint.X++; } break;
-                default: break;
-            }
-
-            return newPoint;
+            return distinctStepCount;
         }
     }
 }
