@@ -37,6 +37,7 @@
 * [소수만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/소수만들기.cs)
 * [숫자문자열과영단어](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/숫자문자열과영단어.cs)
 * [부족한금액계산하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/부족한금액계산하기.cs)
+* [상호평가](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/상호평가.cs)
 * [포켓몬](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/포켓몬.py)
 * [같은숫자는싫어](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/같은숫자는싫어.py)
 * [문자열내p와y의개수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/문자열내p와y의개수.py)
