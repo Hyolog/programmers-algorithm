@@ -40,6 +40,8 @@
 * [상호평가](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/상호평가.cs)
 * [없는숫자더하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/없는숫자더하기.cs)
 * [최소직사각형](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/최소직사각형.cs)
+* [직업군추천하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/직업군추천하기.cs)
+* [복서정렬하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/복서정렬하기.cs)
 * [포켓몬](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/포켓몬.py)
 * [같은숫자는싫어](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/같은숫자는싫어.py)
 * [문자열내p와y의개수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/문자열내p와y의개수.py)
