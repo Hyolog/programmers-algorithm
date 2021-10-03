@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace ProgrammersAlgorithmTest
 {
@@ -21,43 +20,52 @@ namespace ProgrammersAlgorithmTest
 
         public int[] solution(int[] enter, int[] leave)
         {
-            var answerDic = new Dictionary<int, HashSet<int>>(); 
-            var answer = new int[enter.Length];
-            var intersect = new List<int>();
+            var visitInfo = new Dictionary<int, KeyValuePair<double, double>>();
 
+            // 사람 번호, <입실시간, 퇴실시간>
+            for (int i = 0; i < enter.Length; i++)
+                visitInfo.Add(enter[i], new KeyValuePair<double, double>(i, 0));
+
+            double lastLeaveTime = 0;
+
+            // leave 정보 참고해 퇴실시간 할당
             for (int i = 0; i < leave.Length; i++)
-            { 
-                var index = Array.IndexOf(enter, leave[i]); 
-                var count = index; 
-                var lastCount = leave.Length - i - 1; 
-                
-                if (count <= 0 || lastCount <= 0) 
-                    continue; 
-                
-                intersect = enter.Take(count).Intersect(leave.TakeLast(lastCount)).ToList(); 
-                intersect.Add(leave[i]); 
-                
-                foreach (var item in intersect) 
-                { 
-                    if (!answerDic.ContainsKey(item - 1)) 
-                        answerDic.Add(item - 1, new HashSet<int>()); 
-                    
-                    foreach (var node in intersect) 
-                    { 
-                        if (item == node) 
-                            continue; 
-                        
-                        answerDic[item - 1].Add(node); 
-                    } 
-                } 
-                
-                enter[index] = 0; 
+            {
+                visitInfo.TryGetValue(leave[i], out var timeInfo);
+
+                var enterTime = timeInfo.Key;
+                double leaveTime = Math.Max(lastLeaveTime, enterTime);
+                leaveTime += 0.001;
+
+                visitInfo[leave[i]] = new KeyValuePair<double, double>(enterTime, leaveTime);
+
+                lastLeaveTime = leaveTime;
             }
 
-            foreach (var e in answerDic) 
-                answer[e.Key] += e.Value.Count; 
-            
-            return answer;
+            var result = new int[enter.Length];
+
+            for (int i = 1; i <= visitInfo.Count; i++)
+            {
+                visitInfo.TryGetValue(i, out var timeInfo);
+
+                for (int j = i + 1; j <= visitInfo.Count; j++)
+                {
+                    visitInfo.TryGetValue(j, out var timeInfo2);
+
+                    if (IsMeet(timeInfo.Key, timeInfo.Value, timeInfo2.Key, timeInfo2.Value))
+                    {
+                        result[i - 1]++;
+                        result[j - 1]++;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        private bool IsMeet(double enterTime, double leaveTime, double enterTime2, double leaveTime2)
+        {
+            return (enterTime < enterTime2 && leaveTime > enterTime2) || (enterTime > enterTime2 && leaveTime2 > enterTime);
         }
     }
 }
