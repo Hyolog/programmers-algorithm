@@ -86,6 +86,7 @@
 * [입실퇴실](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/입실퇴실.cs)
 * [귤고르기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/귤고르기.cs)
 * [숫자변환하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/숫자변환하기.cs)
+* [뒤에있는큰수찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/뒤에있는큰수찾기.cs))
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
