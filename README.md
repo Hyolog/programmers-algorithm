@@ -89,6 +89,7 @@
 * [뒤에있는큰수찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/뒤에있는큰수찾기.cs))
 * [호텔대실](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/호텔대실.cs))
 * [연속된부분수열의합](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/연속된부분수열의합.cs))
+* [점찍기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/점찍기.cs))
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
