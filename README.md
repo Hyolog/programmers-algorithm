@@ -87,12 +87,12 @@
 * [입실퇴실](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/입실퇴실.cs)
 * [귤고르기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/귤고르기.cs)
 * [숫자변환하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/숫자변환하기.cs)
-* [뒤에있는큰수찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/뒤에있는큰수찾기.cs))
-* [호텔대실](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/호텔대실.cs))
-* [연속된부분수열의합](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/연속된부분수열의합.cs))
-* [점찍기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/점찍기.cs))
-* [무인도여행](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/무인도여행.cs))
-* [연속부분수열합의개수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/연속부분수열합의개수.cs))
+* [뒤에있는큰수찾기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/뒤에있는큰수찾기.cs)
+* [호텔대실](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/호텔대실.cs)
+* [연속된부분수열의합](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/연속된부분수열의합.cs)
+* [점찍기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/점찍기.cs)
+* [무인도여행](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/무인도여행.cs)
+* [연속부분수열합의개수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/연속부분수열합의개수.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
