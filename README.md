@@ -93,6 +93,7 @@
 * [점찍기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/점찍기.cs)
 * [무인도여행](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/무인도여행.cs)
 * [연속부분수열합의개수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/연속부분수열합의개수.cs)
+* [롤케이크자르기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/롤케이크자르기.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
