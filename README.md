@@ -111,6 +111,7 @@
 * [섬연결하기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/섬연결하기.cs)
 * [모두0으로만들기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/모두0으로만들기.cs)
 * [입국심사](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/입국심사.cs)
+* [연속펄스부분수열의합](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/연속펄스부분수열의합.cs)
 
 ## LV4
 * [쿠키구입](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/쿠키구입.cs)
