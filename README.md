@@ -96,6 +96,7 @@
 * [롤케이크자르기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/롤케이크자르기.cs)
 * [할인행사](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/할인행사.cs)
 * [주차요금계산](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주차요금계산.cs)
+* [피로도](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/피로도.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
