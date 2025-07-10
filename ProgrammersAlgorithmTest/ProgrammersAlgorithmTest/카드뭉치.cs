@@ -2,7 +2,7 @@
 
 namespace ProgrammersAlgorithmTest
 {
-    /// <see cref=""/>
+    /// <see cref="https://school.programmers.co.kr/learn/courses/30/lessons/159994?language=csharp"/>
     [TestClass]
     public class 카드뭉치
     {
