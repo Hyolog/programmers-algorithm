@@ -48,8 +48,8 @@
 * [문자열내p와y의개수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTestPy/문자열내p와y의개수.py)
 * [기사단원의무기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/기사단원의무기.cs)
 * [카드뭉치](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/카드뭉치.cs)
-* [카드뭉치](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/유연근무제.cs)
-* [카드뭉치](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/크기가작은부분문자열.cs)
+* [유연근무제](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/유연근무제.cs)
+* [크기가작은부분문자열](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/크기가작은부분문자열.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
