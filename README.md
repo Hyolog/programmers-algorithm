@@ -105,6 +105,7 @@
 * [피로도](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/피로도.cs)
 * [택배상자](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/택배상자.cs)
 * [n2배열자르기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/n2배열자르기.cs)
+* [서버증설횟수](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/서버증설횟수.cs)
 
 ## LV3
 * [베스트앨범](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/베스트앨범.cs)
