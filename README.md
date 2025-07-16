@@ -53,6 +53,7 @@
 * [공원산책](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/공원산책.cs)
 * [달리기경주](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/달리기경주.cs)
 * [바탕화면정리](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/바탕화면정리.cs)
+* [동영상재생기](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/동영상재생기.cs)
 
 ## LV2
 * [주식가격](ProgrammersAlgorithmTest/ProgrammersAlgorithmTest/주식가격.cs)
